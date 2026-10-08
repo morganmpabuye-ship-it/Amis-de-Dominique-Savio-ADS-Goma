@@ -1,4 +1,4 @@
- 
+  
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
 
   :root {
@@ -64,7 +64,7 @@
     align-items: center;
     column-gap: 28px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     padding: clamp(52px, 9vw, 102px) 28px clamp(42px, 7vw, 76px);
     border-radius: 12px;
     background: var(--forest-deep);
@@ -143,31 +143,40 @@
     margin-right: 9px;
     content: '✝';
     font-size: 0.9rem;
+
   }
 
-  .hero h1,
+  h1,
   h2,
-  h3 {
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Playfair Display', Georgia, serif;
     line-height: 1.2;
+    text-align: center;
   }
 
   .hero h1 {
     max-width: 850px;
-    margin: 14px auto 12px;
+    margin: 14px 0 12px;
     font-size: clamp(2.35rem, 6vw, 4.5rem);
     font-weight: 700;
+    text-align: left;
   }
 
   .sub-hero {
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0;
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.08rem;
+    text-align: left;
   }
 
   .hero-nav {
     grid-area: nav;
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -188,13 +197,14 @@
     margin-bottom: 20px;
     color: var(--forest);
     font-size: clamp(1.8rem, 4vw, 2.45rem);
+    text-align: center;
   }
 
   .section-surface h2::after {
     display: block;
     width: 44px;
     height: 2px;
-    margin-top: 11px;
+    margin: 11px auto 0;
     background: var(--sun);
     content: '';
   }
@@ -203,6 +213,7 @@
     margin: 30px 0 16px;
     color: var(--forest);
     font-size: clamp(1.35rem, 3vw, 1.8rem);
+    text-align: center;
   }
 
   .intro-block {
@@ -275,6 +286,8 @@
     line-height: 1.25;
     text-align: center;
     text-decoration: none;
+    opacity: 1;
+    visibility: visible;
     transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
   }
 
@@ -431,6 +444,7 @@
 
   .news-copy h3 {
     margin: 0 0 10px;
+    text-align: center;
   }
 
   .news-copy .mon-bouton {
@@ -638,4 +652,3 @@
       transition-duration: 0.01ms !important;
     }
   }
-
