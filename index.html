@@ -6,42 +6,44 @@
     <meta name="description" content="Les Amis de Dominique Savio (ADS) de Goma, Nord-Kivu, RDC.">
     <title>Amis de Dominique Savio à Goma, RDC</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="doms.jpg"type="image/jpg">
-    <!-- Polices élégantes pour un style authentique -->
-    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="icon" href="images/doms.jpg" type="image/jpeg">
 </head>
 <body>
 
     <!-- Contenu principal de la page -->
     <main class="page-shell">
         
-        <header class="hero">
-            <p class="intro" id= "accueils">Bienvenue sur notre page</p>
-            <h1>Les Amis de Dominique Savio</h1>
-            <p class="sub-hero">Mouvement d'action catholique des jeunes et adolescents à Goma</p>
+        <header class="hero" id="accueil">
+            <div class="hero-copy">
+                <p class="intro">Bienvenue sur notre page</p>
+                <h1>Les Amis de Dominique Savio</h1>
+                <p class="sub-hero">Mouvement d'action catholique des jeunes et adolescents à Goma</p>
+            </div>
+            <figure class="hero-portrait">
+                <img src="images/DominiqueSavio.jpg" alt="Saint Dominique Savio avec une auréole et sa devise : « La mort, mais pas le péché »." width="1080" height="1620">
+            </figure>
+            <nav class="hero-nav" aria-label="Navigation principale">
+                <a href="#accueil" class="mon-bouton principal">Accueil</a>
+                <a href="#doms" class="mon-bouton principal">Dominique Savio</a>
+                <a href="#spiritualite" class="mon-bouton principal">Notre spiritualité</a>
+                <a href="#rejoindre" class="mon-bouton principal">Rejoindre</a>
+                <a href="menu.html" class="mon-bouton principal">Galerie</a>
+            </nav>
         </header>
 
-        <section class="section-surface" id = "accueil">
-            <h2>Qu'est-ce qu'est la mouvement ADS ?</h2>
+        <section class="section-surface">
+            <h2>Qu'est-ce que ADS ?</h2>
             <div class="intro-block">
                 <p><strong>ADS</strong> signifie <em>Amis de Dominique Savio</em>. C'est un mouvement d'action catholique et un groupe dynamique de jeunes chrétiens et d'adolescents.</p>
                 <p>Ils désirent vivre leur vie de sainteté au quotidien, en suivant le modèle lumineux et l'exemple de saint Dominique Savio.</p>
             </div>
-                    <nav>
-            <a href="#accueils" class="mon-bouton principal">Accueils</a>
-            <a href="#Qui%sommes%nous" class="mon-bouton principal">Qui sont ils?</a>
-            <a href="#Doms" class="mon-bouton principal">Dominique Savio</a>
-            <a href="#résolutions" class="mon-bouton principal">résolutions</a>
-            <a href="#spiritualité" class="mon-bouton principal">Notre Spiritualité</a>
-            <a href="#rejoindre" class="mon-bouton principal">Rejoindre</a>
-                    </nav>
         </section>
 
-        <section class="section-surface biographical-section">
-            <h2 id="Doms">Dominique Savio</h2>
+        <section class="section-surface biographical-section" id="doms">
+            <h2>Dominique Savio</h2>
             <div class="section-grid two-cols">
                 <div class="card image-card">
-                    <img src="DominiqueSavio.jpg" alt="Portrait de Dominique Savio">
+                    <img src="images/DominiqueSavio.jpg" alt="Portrait de Dominique Savio">
                 </div>
                 <div class="card text-card">
                     <p><em>Dominique Savio</em> était un jeune saint italien du XIXe siècle, disciple de Don Bosco. Sa vie est un exemple étincelant de foi profonde et de joie rayonnante.</p>
@@ -54,7 +56,7 @@
         </section>
 
         <section class="section-surface resolutions-section">
-            <h3 id="résolutions">Les 4 Résolutions de Dominique Savio</h3>
+            <h3>Les 4 Résolutions de Dominique Savio</h3>
             <ol class="resolutions-list">
                 <li><span>Je me confesserai et communierai chaque fois que mon confesseur me le permettra.</span></li>
                 <li><span>Je vais sanctifier les jours de fête du Seigneur.</span></li>
@@ -66,7 +68,7 @@
             </div>
         </section>
 
-        <section class="section-surface spirituality-section" id="spiritualité">
+        <section class="section-surface spirituality-section" id="spiritualite">
             <h2>Notre Spiritualité</h2>
             <p class="spirituality-intro">La spiritualité des ADS est profondément enracinée dans la pédagogie salésienne de Don Bosco : la joie, le devoir d'état bien accompli et le service généreux des autres.</p>
             
@@ -83,7 +85,7 @@
                 <p class="slogan-text">« ADS toujours ! Joyeux. Soyons lumière dans la joie. »</p>
             </div>
 
-            <h3 id="rejoindre" >Où nous trouver à Goma ?</h3>
+            <h3>Où nous trouver à Goma ?</h3>
             <p>Les ADS sont présents dans plusieurs pays, notamment en RDC, au Rwanda et dans plusieurs pays d'Europe. Dans la ville de Goma, le mouvement se rassemble activement à :</p>
             <ul class="locations-list">
                 <li>ITIG / Don Bosco</li>
@@ -96,24 +98,25 @@
             <h2>Le Mouvement en Images</h2>
             <div class="image-grid">
                 <div class="card gallery-card">
-                    <img src="les%20ADS%20à%20Ngangi.jpg" alt="Les ADS à Ngangi">
-                    <div class="caption">Les ADS%à%Ngangi</div>
+                    <img src="images/les%20ADS%20à%20Ngangi.jpg" alt="Les ADS à Ngangi">
+                    <div class="caption">Les ADS à Ngangi</div>
                 </div>
                 <div class="card gallery-card">
-                    <img src="LES%20ADS%20goma.jpg" alt="Les%ADS%à%Goma">
-                    <div class="caption">Les%ADS%à%Goma</div>
+                    <img src="images/LES%20ADS%20goma.jpg" alt="Les ADS à Goma">
+                    <div class="caption">Les ADS à Goma</div>
                 </div>
                 <div class="card gallery-card">
-                    <img src="les%20ADS%20en%20apostolat.jpg" alt="Les ADS en apostolat">
-                    <div class="caption">Les%ADS%en%apostolat</div>
+                    <img src="images/les%20ADS%20en%20apostolat.jpg" alt="Les ADS en apostolat">
+                    <div class="caption">Les ADS en apostolat</div>
                 </div>
             </div>
         </section>
 
-        <section class="section-surface contact-section">
+        <section class="section-surface contact-section" id="rejoindre">
             <h2>Rejoindre les ADS de Goma</h2>
             <p>Vous souhaitez participer à nos activités ou obtenir plus de renseignements ?</p>
-            <a href="contact.html" class="mon-bouton principal">Nous contacter</a>          <a href="Actualités.html" class="mon-bouton principal">Actualités</a>
+            <a href="contact.html" class="mon-bouton">Nous contacter</a>
+            <a href="actualités.html" class="mon-bouton secondary">Actualités</a>
         </section>
 
     </main>
