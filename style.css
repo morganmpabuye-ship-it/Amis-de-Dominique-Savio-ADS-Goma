@@ -75,6 +75,7 @@
 
   .hero-copy {
     grid-area: copy;
+    text-align: center;
   }
 
   .hero-copy h1 {
